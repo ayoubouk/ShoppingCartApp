@@ -451,11 +451,64 @@ footer .footer-child p{
    font-family: 'Oswald', sans-serif;
 }
 
+/*POUR LES TABELLETS;*/
 
+@media screen and (min-width: 781px),(min-device-width: 781px) and (max-width: 1207px),(max-device-width:1207px)
+ {
+ 	nav{
+ 		/*background-color: red*/
+ 	}
+
+  body{
+  	overflow-x: hidden;
+  }
+  .item-img {
+    width: 60%;
+}
+.home-item-product {
+    width: 40%;
+}
+
+.home-item-product .product {
+    height: 286px;
+    width: 110%;
+    
+}
+
+.ajout-product {
+    width: 76px;
+    height: 81px
+}
+#addPr, #editPr{
+	width: 120px
+}
+#RemoveProduct {
+    margin-left: 84px;
+    width: 87px;
+    font-size: 11px;}
+
+    .home-item-product .product div button {
+    width: 87px;}
+
+ footer .footer-child {
+    width: 40%;
+     }
+
+     .prixTotal{
+     	margin-left: 97px;
+        width: 50%;
+        background-color: red
+     }
+     .prixTotal div{
+     	font-size: 42px
+     }
+
+
+ }
 
 
  /* POUR LES APPAREILS QU ONT DANS LA TAILLE 574PX AU MAXIMUM*/
-@media screen and (max-width: 780px){
+@media screen and (max-device-width: 780px),(max-width: 780px)  {
 	.btnPayer{
 	display: none
   }
@@ -564,52 +617,5 @@ h2{
 
 
 
-/*POUR LES TABELLETS;*/
-@media screen and (min-width: 781px) and (max-width: 1207px){
-
-  body{
-  	overflow-x: hidden;
-  }
-  .item-img {
-    width: 60%;
-}
-.home-item-product {
-    width: 40%;
-}
-
-.home-item-product .product {
-    height: 286px;
-    width: 110%;
-    
-}
-
-.ajout-product {
-    width: 76px;
-    height: 81px
-}
-#addPr, #editPr{
-	width: 120px
-}
-#RemoveProduct {
-    margin-left: 84px;
-    width: 87px;
-    font-size: 11px;}
-
-    .home-item-product .product div button {
-    width: 87px;}
-
- footer .footer-child {
-    width: 40%;
-     }
-
-     .prixTotal{
-     	margin-left: 97px;
-        width: 50%;
-        background-color: red
-     }
-     .prixTotal div{
-     	font-size: 42px
-     }
 
 
- }
